@@ -13,6 +13,6 @@
 
 })(jQuery, this);*/
 
-var button = document.getElementsByClassName('menu-toggle')[0];
+var button = document.getElementsByClassName('menu-toggle');
 
 console.log(button);
