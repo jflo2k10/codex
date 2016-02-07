@@ -12,6 +12,7 @@
 	});
 
 })(jQuery, this);
+
 ( function() {
 	var container, button;
 
@@ -24,7 +25,9 @@
 	if ( 'undefined' === typeof button ) {
 		return;
 	}
-
+  
+  console.log('Hello');
+  
 	button.onclick = function() {
   	console.log('clicked');
 		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
