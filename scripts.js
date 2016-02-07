@@ -1,4 +1,4 @@
-(function($, root, undefined) {
+/*(function($, root, undefined) {
 	$(function() {
 		'use strict';
 				
@@ -11,7 +11,7 @@
 		
 	});
 
-})(jQuery, this);
+})(jQuery, this);*/
 
 ( function() {
 	var container, button;
