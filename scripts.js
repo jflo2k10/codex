@@ -5,7 +5,8 @@
 		
 		//jQuery
 		$('menu-toggle').click(function() {
-  		$(this).toggleClass('x')
+  		$(this).toggleClass('x');
+  		console.log('CLICKED');
 		});
 		
 		
