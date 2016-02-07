@@ -21,7 +21,7 @@
 //		return;
 //	}
 
-	button = document.getElementsByClassName( 'button' )[0];
+	button = document.getElementsByClassName( 'button' );
 //	if ( 'undefined' === typeof button ) {
 //		return;
 //	}
