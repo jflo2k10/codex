@@ -13,29 +13,6 @@
 
 })(jQuery, this);*/
 
-//( function() {
-	var container, button;
+var button = document.getElementsByClassName('menu-toggle');
 
-	container = document.getElementById( 'site-navigation' );
-//	if ( ! container ) {
-//		return;
-//	}
-
-	button = document.getElementsByClassName( 'menu-toggle' );
-//	if ( 'undefined' === typeof button ) {
-//		return;
-//	}
-  
-  console.log(container.length);
-  
-	button.onclick = function() {
-  	console.log('clicked');
-		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
-  		container.className = container.className.replace( ' toggled', '' );
-			button.className = button.className.replace( /(?:^|\s)x(?!\S)/g , '' );
-		} else {
-			container.className += ' toggled';
-			button.className += " x";
-		}
-  };
-//} )();
+console.log(button);
