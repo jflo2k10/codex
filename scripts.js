@@ -13,11 +13,12 @@
 
 })(jQuery, this);
 
-var container = document.getElementById( 'main-navigation' );
+var container = document.getElementById( 'site-navigation' );
 var button = container.getElementsByClassName( 'menu-toggle' )[0];
 
 	button.onclick = function() {
 		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
+  		container.className = container.className.replace( ' toggled', '' );
 			button.className = button.className.replace( /(?:^|\s)x(?!\S)/g , '' );
 		} else {
 			container.className += ' toggled';
