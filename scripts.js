@@ -12,7 +12,7 @@
 	});
 
 })(jQuery, this);
-
+( function() {
 	var container, button;
 
 	container = document.getElementById( 'site-navigation' );
@@ -34,3 +34,4 @@
 			button.className += " x";
 		}
   };
+} )();
