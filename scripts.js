@@ -21,7 +21,7 @@
 //		return;
 //	}
 
-	button = document.getElementsByClassName( 'button' );
+	button = document.getElementsByClassName( 'menu-toggle' );
 //	if ( 'undefined' === typeof button ) {
 //		return;
 //	}
