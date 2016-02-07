@@ -26,6 +26,7 @@
 	}
 
 	button.onclick = function() {
+  	console.log('clicked');
 		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
   		container.className = container.className.replace( ' toggled', '' );
 			button.className = button.className.replace( /(?:^|\s)x(?!\S)/g , '' );
