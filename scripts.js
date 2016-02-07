@@ -13,7 +13,7 @@
 
 })(jQuery, this);
 
-var container = document.getElementById( 'site-navigation' ),
+var container = document.getElementById( 'main-navigation' ),
 button = container.getElementsByClassName( 'menu-toggle' )[0];
 
 	button.onclick = function() {
