@@ -14,7 +14,10 @@
 })(jQuery, this);
 
 var container = document.getElementById( 'site-navigation' );
-var button = container.getElementsByClassName( 'menu-toggle' )[0];
+
+console.log(container.length);
+
+var button = container.getElementsByClassName( 'menu-toggle' );
 
 	button.onclick = function() {
 		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
