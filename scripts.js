@@ -15,4 +15,4 @@
 
 var button = document.getElementsByClassName('menu-toggle');
 
-console.log(button);
+console.log(button.length);
