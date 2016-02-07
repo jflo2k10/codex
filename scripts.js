@@ -21,7 +21,7 @@
 //		return;
 //	}
 
-	button = container.getElementsByClassName( 'button' )[0];
+	button = document.getElementsByClassName( 'button' )[0];
 //	if ( 'undefined' === typeof button ) {
 //		return;
 //	}
