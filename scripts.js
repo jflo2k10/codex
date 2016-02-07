@@ -1,10 +1,13 @@
 (function($, root, undefined) {
 	$(function() {
 		'use strict';
+				
 		
-		$('body').css({
-  		background: 'blue'
+		//jQuery
+		$('menu-toggle').click(function() {
+  		$(this).toggleClass('x')
 		});
+		
 		
 	});
 
