@@ -13,18 +13,18 @@
 
 })(jQuery, this);*/
 
-( function() {
+//( function() {
 	var container, button;
 
 	container = document.getElementById( 'site-navigation' );
-	if ( ! container ) {
-		return;
-	}
+//	if ( ! container ) {
+//		return;
+//	}
 
 	button = container.getElementsByClassName( 'button' )[0];
-	if ( 'undefined' === typeof button ) {
-		return;
-	}
+//	if ( 'undefined' === typeof button ) {
+//		return;
+//	}
   
   console.log('Hello');
   
@@ -38,4 +38,4 @@
 			button.className += " x";
 		}
   };
-} )();
+//} )();
