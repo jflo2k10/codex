@@ -13,6 +13,6 @@
 
 })(jQuery, this);*/
 
-var button = document.getElementsByClassName('menu-toggle');
+var button = document.getElementById('hamburger-menu-animation-var-1');
 
 console.log(button.length);
