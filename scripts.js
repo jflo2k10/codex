@@ -26,7 +26,7 @@
 //		return;
 //	}
   
-  console.log(button.length);
+  console.log(container.length);
   
 	button.onclick = function() {
   	console.log('clicked');
