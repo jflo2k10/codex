@@ -13,11 +13,17 @@
 
 })(jQuery, this);
 
-var container = document.getElementById( 'site-navigation' );
+	var container, button;
 
-console.log(container.length);
+	container = document.getElementById( 'site-navigation' );
+	if ( ! container ) {
+		return;
+	}
 
-var button = container.getElementsByClassName( 'menu-toggle' );
+	button = container.getElementsByClassName( 'button' )[0];
+	if ( 'undefined' === typeof button ) {
+		return;
+	}
 
 	button.onclick = function() {
 		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
