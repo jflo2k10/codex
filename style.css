@@ -235,11 +235,11 @@ input[type="submit"]:focus {
     text-decoration: none;
   }
  
- #navigation-with-generic-dropdown ul ul {
+ #navigation-with-generic-dropdown ul li ul {
    display: none;
  }
  
- #navigation-with-generic-dropdown ul li ul {
+ #navigation-with-generic-dropdown ul li:hover ul {
    display: block;
  }
  
