@@ -228,15 +228,21 @@ input[type="submit"]:focus {
    width: 20%;
    border: 1px solid rgb(0,0,0);
    padding: 0.3em;
+   position: relative;
  }
  
   #navigation-with-generic-dropdown ul li a {
     text-align: center;
     text-decoration: none;
+    color: black;
+    display: block;
   }
  
  #navigation-with-generic-dropdown ul li ul {
    display: none;
+   position: absolute;
+   bottom: 0;
+   left: 0;
  }
  
  #navigation-with-generic-dropdown ul li:hover ul {
