@@ -226,6 +226,21 @@ input[type="submit"]:focus {
    list-style: none; 
    float: left;
    width: 20%;
+   border: 1px solid rgb(0,0,0);
+   padding: 0.3em;
+ }
+ 
+  #navigation-with-generic-dropdown ul li a {
+    text-align: center;
+    text-decoration: none;
+  }
+ 
+ #navigation-with-generic-dropdown ul ul {
+   display: none;
+ }
+ 
+ #navigation-with-generic-dropdown ul li ul {
+   display: block;
  }
  
  #navigation-with-generic-dropdown ul ul li {
