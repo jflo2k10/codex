@@ -199,5 +199,39 @@ input[type="submit"]:focus {
   height: 100%;
 }
 
+/*
+ * Generic CSS Drop Down Menu
+ **********************************/
+ 
+ #navigation-with-generic-dropdown {
+   display: block;
+   width: 75%;
+   margin: 0 auto;
+ }
+ 
+ #navigation-with-generic-dropdown ul {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ #navigation-with-generic-dropdown ul:before,
+ #navigation-with-generic-dropdown ul:after {
+  clear: both;
+  content: "";
+  display: table;   
+ }
+ 
+ 
+ #navigation-with-generic-dropdown ul li {
+   list-style: none; 
+   float: left;
+   width: 20%;
+ }
+ 
+ #navigation-with-generic-dropdown ul ul li {
+   float: none;
+   display: list-item;
+ }
+
 
 /*http://jflo2k10.github.io/codex/*/
