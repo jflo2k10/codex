@@ -30,6 +30,10 @@ input[type="submit"]:active,
 input[type="submit"]:focus {
   border-color: #aaa #bbb #bbb;
 }
+
+/*
+ * Hamburger Menu Animation V1
+ *****************************/
 #hamburger-menu-animation-var-1 .menu-toggle {
   text-shadow: none;
   -webkit-box-shadow: none;
@@ -175,5 +179,25 @@ input[type="submit"]:focus {
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
+
+/*
+ * Responsive Video
+ **********************************/
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  margin: 0px auto;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 /*http://jflo2k10.github.io/codex/*/
