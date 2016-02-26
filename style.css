@@ -206,7 +206,7 @@ input[type="submit"]:focus {
  #navigation-with-generic-dropdown {
    display: block;
    width: 75%;
-   margin: 0 auto;
+   margin: 0 auto 50px;
  }
  
  #navigation-with-generic-dropdown ul {
@@ -241,8 +241,9 @@ input[type="submit"]:focus {
  #navigation-with-generic-dropdown ul li ul {
    display: none;
    position: absolute;
-   bottom: 0;
+   top: 100%;
    left: 0;
+   width: 100%;
  }
  
  #navigation-with-generic-dropdown ul li:hover ul {
