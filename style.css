@@ -31,7 +31,7 @@ input[type="submit"]:focus {
   border-color: #aaa #bbb #bbb;
 }
 
-.code {
+.gist {
   max-height: 300px;
   overflow-x: hidden;
   overflow-y: auto;
