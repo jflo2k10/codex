@@ -31,6 +31,12 @@ input[type="submit"]:focus {
   border-color: #aaa #bbb #bbb;
 }
 
+.code {
+  max-height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 /*
  * Hamburger Menu Animation V1
  *****************************/
